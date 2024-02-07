@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import HeroImg from "../assets/Hero.jpg";
 const Home = () => {
   return (
-    <div className="container h-screen mt-10 ">
-      <div className="flex justify-between items-center">
+    <div className="container h-full my-10 ">
+      <div className="flex md:flex-row flex-col-reverse justify-between items-center">
         <div>
           <small className="text-xs text-primary mb-10 block">
             Sale up to 70% off
@@ -18,7 +18,7 @@ const Home = () => {
           </Link>
         </div>
         <div>
-          <img className="w-96 mx-auto" src={HeroImg} alt="" />
+          <img className="w-96 mx-auto md:mb-0 mb-10" src={HeroImg} alt="" />
         </div>
       </div>
     </div>
