@@ -20,7 +20,7 @@ app.use('/api/v1', router);
 
 app.get('/', (req, res) => {
   res.status(200).json({
-    message: 'Welcome to the IRepair API Product',
+    message: 'Welcome to the apollo emajon API Product',
   });
 });
 
